@@ -326,7 +326,7 @@ function setMedal()
    var elemmedal = $("#medal");
    elemmedal.empty();
    
-   if(score < 10)
+   if(score < 10000)
       //signal that no medal has been won
       return false;
    
